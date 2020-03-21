@@ -1,0 +1,186 @@
+{% extends 'base.html' %}
+
+
+
+{% block head %}
+<title>Narrow Jumbotron Template for Bootstrap</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/appt_booking.css') }}">
+{% endblock %}
+
+
+{% block body %}
+<div class="container">
+    <div class="header clearfix">
+        <nav>
+            <ul class="nav nav-pills float-right">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Appts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Personal</a>
+                </li>
+            </ul>
+        </nav>
+        <h3 class="text-muted">Hello name</h3>
+    </div>
+    <div class="jumbotron">
+        <h1 class="display-6">Appt Booking</h1>
+        <div class="form-group">
+            <label">Choose a doctor </label>
+            <select class="form-control">
+                <option value="value1">Doc 1</option>
+                <option value="value2">Doc 2</option>
+                <option value="value3">Doc 3</option>
+            </select>
+        </div>
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+       		            <th><button class="rounded-circle" type="button" class="btn-sm">+</button></th>
+        		        <th>Sun</th>
+        		        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+      	            </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                        <td>.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p> </p>
+
+        <div class="container">
+            <footer class="footer">Administrative website to get your doctors closer to you</footer>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

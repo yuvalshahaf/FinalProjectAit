@@ -1,0 +1,30 @@
+.nav-link active{
+    width: 70px;
+}
+
+.nav-item{
+    width: 85px;
+}
+
+.text-muted{
+    width: 510px;
+}
+
+.col-0{
+    text-align: center;
+    line-height: 45px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.col-1{
+    background-color: rgb(0, 0, 128);
+    color: rgb(255, 255, 255);
+    width: 180px;
+    height: 50px;
+    line-height: 20px;
+}
+
+.footer{
+    color: rgb(151, 151, 151);
+}

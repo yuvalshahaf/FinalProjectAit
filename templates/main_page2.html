@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+
+
+{% block head %}
+<title>Narrow Jumbotron Template for Bootstrap</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main_page.css') }}">
+{% endblock %}
+
+
+{% block body %}
+<div class="container">
+    <div class="header clearfix">
+        <h1 class="text-muted"  contenteditable="true" spellcheckker="false">CliniQ&nbsp;<br></h1>
+    </div>
+
+    <div class="jumbotron">
+        <h1 class="display-4">A tap away from your Doc :)</h1>
+        <p>     </p>
+        <div class="container" style=""></div>
+        <div class="form-group-0"></div>
+        <div class="form-group-1">
+            <label class="container-1">User Name:  <input type="text" class="form-control"></label>
+        </div>
+        <p>     </p>
+        <div class="form-group-1">
+            <label class="container-1">Password:  <input type="text" class="form-control"></label>
+        </div>
+        <p>_</p>
+    </div>
+
+    <div class="jumbotron">
+        <footer class="footer">Administrative website to get your doctors closer to you</footer>
+    </div>
+</div>
+{% endblock %}

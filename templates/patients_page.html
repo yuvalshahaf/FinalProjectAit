@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+
+
+{% block head %}
+<title>Narrow Jumbotron Template for Bootstrap</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/patients_page.css') }}">
+{% endblock %}
+
+
+{% block body %}
+<div class="container">
+    <div class="header clearfix">
+        <nav>
+            <ul class="nav nav-pills float-right">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Appts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Personal</a>
+                </li>
+            </ul>
+        </nav>
+        <h3 class="text-muted">Hello name</h3>
+    </div>
+
+    <div class="jumbotron">
+        <h1 class="display-6">DD/MM/YYYY</h1>
+        <div class="container">
+            <table class="table">
+                <thead>
+      				<tr>
+        				<th>\</th>
+       			 		<th>From</th>
+        				<th>When</th>
+                        <th>Status</th>
+      				</tr>
+    			</thead>
+    			<tbody>
+      				<tr>
+        				<td>Order</td>
+        				<td>Doc Name</td>
+        				<td>HH:MM</td>
+                      	<td>status</td>
+      				</tr>
+      				<tr>
+        				<td>Order</td>
+        				<td>Doc Name</td>
+        				<td>HH:MM</td>
+                      	<td>status</td>
+      				</tr>
+      				<tr>
+        				<td>Order</td>
+        				<td>Doc Name</td>
+        				<td>HH:MM</td>
+                      	<td>status</td>
+      				</tr>
+    			</tbody>
+  			</table>
+		</div>
+        <div class="row">
+            <div class="col-0">Your Next Appt Is In </div>
+            <div class="col-1">
+        	    <a class="btn" href="#" role="button">NUM days</a>
+            </div>
+        </div>
+        <footer class="footer">Administrative website to get your doctors closer to you</footer>
+    </div>
+</div>
+
+{% endblock %}

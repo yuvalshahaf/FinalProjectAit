@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+
+
+
+{% block head %}
+<title>Narrow Jumbotron Template for Bootstrap</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/staff_page.css') }}">
+{% endblock %}
+
+
+{% block body %}
+
+<div class="container">
+    <div class="jumbotron">
+        <div class="row">
+            <nav>
+                <h3 class="text-muted">Hello name</h3>
+                <ul class="staff_nav_bar">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link-0" href="#">Agenda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link-0" href="#">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link-1" href="#">Today</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="jumbotron">
+        <h1 class="display-6">DD/MM/YYYY</h1>
+        <div class="container">
+            <table class="table">
+   			    <thead>
+      			    <tr>
+        				<th>Doctor</th>
+       			 		<th>From</th>
+        				<th>Until</th>
+                        <th>Patients</th>
+      				</tr>
+    			</thead>
+    			<tbody>
+      				<tr>
+        				<td>LAstName</td>
+        				<td>HH:MM</td>
+        				<td>HH:MM</td>
+                      	<td>Num</td>
+      				</tr>
+      				<tr>
+        				<td>LAstName</td>
+        				<td>HH:MM</td>
+        				<td>HH:MM</td>
+                      	<td>Num</td>
+      				</tr>
+      				<tr>
+        				<td>LAstName</td>
+        				<td>HH:MM</td>
+        				<td>HH:MM</td>
+                      	<td>Num</td>
+      				</tr>
+    			</tbody>
+  			</table>
+		</div>
+        <p><a class="btn btn-lg btn-success" href="#" role="button">Today</a></p>
+    </div>
+
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-0">
+                <div class="form-group"> <label>First Name</label><input type="text" class="form-control">
+            </div>
+        </div>
+       	<div class="col-0">
+            <div class="form-group"> <label>Last Name</label><input type="text" class="form-control"></div>
+        </div>
+            <div class="col">
+                <div class="form-group" > <label>ID</label><input type="text" class="form-control"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <a class="btn btn-lg btn-success" href="#" role="button">Prescription</a>
+            </div>
+            <div class="col">
+                <a class="btn btn-lg btn-success" href="#" role="button"">Refferals</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer"">Administrative website to get your doctors closer to you</footer>
+</div>
+{% endblock %}

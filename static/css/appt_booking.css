@@ -1,0 +1,31 @@
+.nav-link active{
+    width: 70px;
+}
+
+.nav-item{
+    width: 85px;
+}
+
+.text-muted{
+    width: 510px;
+}
+
+.form-group{
+    width: 50px;
+}
+
+.form-control{
+    width: 100px;
+}
+
+.rounded-circle{
+    background-color: rgb(255, 192, 2);
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+.footer{
+    color: #e1e0de;
+    font-size:25px;
+}

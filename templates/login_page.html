@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<h1> Welcome to CliniQ! </h1>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/login_page.css') }}">
+{% endblock %}
+
+{% block body %}
+<div class="sidenav">
+      <div class="login-main-text">
+         <h1>Login Page</h1>
+         <p>Login page for Patients.</p>
+         <a href="https://bootsnipp.com/snippets/7nk08" target="_blank" title="THIS VERY PAGE">THIS VERY PAGE</a>
+      </div>
+</div>
+<div class="main">
+    <div class="col-md-6 col-sm-12">
+        <div class="login-form">
+            {% if error %}
+                <p class="error">Login failed: {{error}}</p>
+            {% endif %}
+            <form action="" method="post">
+                <div class="form-group">
+                    <label>User Name</label>
+                    <input name="username" type="text" class="form-control" placeholder="Username" value="{{
+                     request.form.username }}">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input name="password" type="password" class="form-control" placeholder="Password" value="{{
+                     request.form.password }}">
+                </div>
+                <button type="submit" class="btn btn-black">Login</button>
+            </form>
+            <footer class="footer">Administrative website to get your doctors closer to you</footer>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+

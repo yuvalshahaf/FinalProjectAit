@@ -1,0 +1,42 @@
+.text-muted {
+    font-family: Tahoma;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration-color: #92b5d8;
+    font-size: 50px;
+}
+
+.jumbotron {
+    text-decoration-color: #92b5d8;
+    text-align: center;
+    background-color: #92b5d8;
+}
+
+.display-4 {
+    line-height: 80px;
+    opacity: 1;
+    color: #e1e0de;
+}
+
+.form-group-0 {
+    width: 100px;
+}
+
+.form-group-1 {}
+
+.container-1 {
+    height: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.form-control {
+    width: 200px;
+    height: 40px;
+}
+
+.footer {
+    color: #e1e0de;
+    font-size:25px;
+}
